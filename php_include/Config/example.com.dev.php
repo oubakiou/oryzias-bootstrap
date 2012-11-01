@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'salt'      => 'QJ++j1]?kMAP(ZJ n2=4k|q?W\rZPcWM',
+    'debug' => true,
+    'salt'  => 'QJ++j1]?kMAP(ZJ n2=4k|q?W\rZPcWM',
     'db'=>[
         'default'=>[
             'dsn'=>[

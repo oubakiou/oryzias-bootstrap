@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'debug'     => false,
+    'salt'      => 'qi0KbV^y=)j&$T;(VytxFT2kCU%0~rQ4',
     'timeZone'  => 'Asia/Tokyo',
     'baseDir'   => realpath(dirname(__FILE__).'/../../'),
     'publicDir' => realpath(dirname(__FILE__).'/../../') . '/public',
@@ -20,5 +22,4 @@ return [
         'uploadImgPath'       => realpath(dirname(__FILE__).'/../../') . '/public/img',
     ],
     'routingRules'=>[],
-    'salt'      => 'qi0KbV^y=)j&$T;(VytxFT2kCU%0~rQ4',
 ];
